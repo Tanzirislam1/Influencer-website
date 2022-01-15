@@ -38,11 +38,16 @@
 
 body{
     font-family: poligon;
+    overflow-x: hidden !important;
 }
 
 .container{
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.navbar{
+    display: none;
 }
 
 /* custom properties */
@@ -95,6 +100,9 @@ body{
 
 .nav-contents .nav-link .fa-search, .fa-shopping-cart{
     font-size: 24px;
+    position: relative;
+    top: 0;
+    left: -3px;
 }
 
 
